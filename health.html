@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--With this our website get responsiveness-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United NGO</title>
+
+    <!-- Bootstrap Icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <!-- Style.css-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+   <!--Fonts-->
+   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Josefin+Sans:wght@500&family=Montserrat:wght@400;500&family=Moon+Dance&family=Secular+One&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+<body>
+         <!-- Navbar -->
+    <nav id="myNavbar" class="navbar navbar-expand-md navbar-dark nav-inverse " style="background-color: black; font-family: 'Josefin Sans', sans-serif;">
+        <div class="container-fluid  ">
+          <a class="navbar-brand " href="#" style="color:yellow;">
+           UNITED NGO
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-lg-0">
+              <li class="nav-item mx-lg-3">
+                <a class="nav-link active " aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item mx-lg-3">
+                <a class="nav-link" href="index.html">ABOUT US</a>
+              </li>
+            
+              <li class="nav-item dropdown mx-lg-3">
+                <a class="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  NGOs
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="EnvironmentNGO.html">Environmental NGO</a></li>
+                  <li><a class="dropdown-item" href="Humanitarian.html">Humanitarian NGO</a></li>
+                  <li><a class="dropdown-item" href="health.html">Health NGO</a></li>
+             
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact" >CONTACT US</a>
+              </li>
+            </ul>
+          
+          </div>
+        </div>
+      </nav>
+
+      <!--Slider-->
+     
+    </div>
+    
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      
+        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+    
+     
+
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          
+          <img src="images/Health/img1.jpg"  class="d-block w-100" style="width:1500px;height:500px;  opacity: 0.8;" alt="...">
+          <div class="carousel-caption ">
+            <h2 class="animated bounceInLeft" style="animation-delay:1s ; background-color: #fff; max-width:500px; border-radius: 8px;">Explore <span > Health NGOs </span></h2>
+            
+           
+          </div>
+        </div>
+
+      
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/Health/img2.jpg"  class="d-block w-100" style=" width:1500px; height:500px; opacity: 0.9;"  alt="...">
+
+
+
+          <div class="carousel-caption ">
+            <h2 class="animated bounceInRight" id="img3" style="animation-delay:1s ; background-color: #fff; max-width:500px; border-radius: 8px;">Detailed <span > Information of various NGOs</span></h2>
+      
+          </div>
+          
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Tagline -->
+    <div class="container-fluid" >
+       
+        </div>
+     
+      
+       <div class="container">
+        <h2 class="heading">Popular Health NGOs</h2>
+
+        <div class="container">
+          <div class="row"  >
+            <div class="col-sm-6 col-lg-6 col-md-6 mb-3 mt-3 " style="text-align: center; margin: auto; ">
+              <input type="text" id="myFilter" class="form-control" onkeyup="myFunction()" placeholder="Type to search.." style="display: inline-block;">
+             
+            </div>
+
+            <div class="col-sm-6 col-lg-6 col-md-6 mb-3 mt-3">
+              <select name="" id="" onchange="getLocation(this.value)">
+                <option value="all">All</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="noida">Noida</option>
+                <option value="delhi">Delhi</option>
+                <option value="banglore">Banglore</option>
+                <option value="pune">Pune</option>
+              </select>
+             
+            </div>
+
+          </div>
+
+        <div class="row " id="myItems">
+       
+         
+          <div class="card-group justify-content-evenly" id="ngo">
+          <div class="col-md-5 col-lg-4 pt-5  pb-4 mx-lg-2" >
+          
+              <div class="card">
+                <img src="images/Health/health1.png" class="card-img-top  img-fluid" style="height:200px;" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">brac NGO</h5>
+                  <p class="card-text">
+                    BRAC is an international development organisation founded in Bangladesh in 1972 that partners with over 100 million people living with inequality and poverty to create opportunities to realise human potential.  </p>
+                  
+                  <div class="btn-group mx-lg-5 mx-sm-5 mx-md-2" >
+                    <button type="button" class="btn btn-primary mt-3 mx-lg-3 mx-sm-5 mx-md-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        View Details
+                      </button>
+                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              ...
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                
+
+               
+                  <button class="btn btn-danger mt-3" >
+                    <a href="https://www.brac.net/" style="text-decoration: none; color:#fff;">Donate Now</a>
+                  </button>
+
+                  </div>
+
+                </div>
+              </div>
+    
+          </div>
+
+          <div class="col-md-5 col-lg-4 pt-5  pb-4 mx-lg-2" >
+          
+            <div class="card">
+              <img src="images/Health/health2.png" class="card-img-top  img-fluid" style="height:200px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Gates Foundation NGO</h5>
+                <p class="card-text">The Bill & Melinda Gates Foundation is an NGO that works to improve the lives of people around the world, with a focus on health, poverty, and education. The foundation has been fighting inequities for 20 years and works with businesses, to achieve its goals.  </p>
+                
+                <div class="btn-group mx-lg-5 mx-sm-5 mx-md-2" >
+                    <button type="button" class="btn btn-primary mt-3 mx-lg-3 mx-sm-5 mx-md-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        View Details
+                      </button>
+                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              ...
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+              
+
+             
+                <button class="btn btn-danger mt-3" >
+                  <a href="https://www.gatesfoundation.org/" style="text-decoration: none; color:#fff;">Donate Now</a>
+                </button>
+
+                </div>
+
+              </div>
+            </div>
+  
+        </div>
+
+        <div class="col-md-5 col-lg-4 pt-5  pb-4 mx-lg-2" >
+          
+          <div class="card">
+            <img src="images/Health/health3.png" class="card-img-top  img-fluid" style="height:200px;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MOHAN Foundation NGO</h5>
+              <p class="card-text">
+                MOHAN Foundation is a non-profit, registered organization in India that works in the field of deceased organ donation and transplantation. MOHAN stands for Multi Organ Harvesting Aid Network. </p>
+              
+              <div class="btn-group mx-lg-5 mx-sm-5 mx-md-2" >
+                <button type="button" class="btn btn-primary mt-3 mx-lg-3 mx-sm-5 mx-md-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    View Details
+                  </button>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          ...
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            
+
+           
+              <button class="btn btn-danger mt-3" >
+                <a href="https://www.mohanfoundation.org/" style="text-decoration: none; color:#fff;">Donate Now</a>
+              </button>
+
+              </div>
+
+            </div>
+          </div>
+
+      </div>
+
+      <div class="col-md-5 col-lg-4 pt-5  pb-4 mx-lg-2" >
+          
+        <div class="card">
+          <img src="images/Health/health4.png" class="card-img-top  img-fluid" style="height:200px;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">NARAYAN SEVA SANSTHAN</h5>
+            <p class="card-text">Narayan Seva Sansthan is a non-governmental organization (NGO) in India that helps people from disadvantaged backgrounds with physical, social, and economic rehabilitation.</p>
+            
+            <div class="btn-group mx-lg-5 mx-sm-5 mx-md-2" >
+                <button type="button" class="btn btn-primary mt-3 mx-lg-3 mx-sm-5 mx-md-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    View Details
+                  </button>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          ...
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+
+         
+            <button class="btn btn-danger mt-3" >
+              <a href="https://www.narayanseva.org/donate/?utm_network=Search&medium=cpc&matchtype=b&device=c&campaign_id=17813107800&adgroup_id=138970133693&keyword=donation%20to%20narayan%20seva%20sansthan&creative=611710881261&placement=&gclid=Cj0KCQjwncWvBhD_ARIsAEb2HW8uE5FG9kr8p2rje9SH0uqZa9jfjlQ-H8skIM6vgDPZqfUUL4csoIgaArrxEALw_wcB&utm_source=google&utm_term=donation%20to%20narayan%20seva%20sansthan&utm_campaign=NSS_Search_Conversion&utm_medium=ppc&hsa_acc=9250277853&hsa_cam=17813107800&hsa_grp=138970133693&hsa_ad=611710881261&hsa_src=g&hsa_tgt=kwd-1718533611016&hsa_kw=donation%20to%20narayan%20seva%20sansthan&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1" style="text-decoration: none; color:#fff;">Donate Now</a>
+            </button>
+
+            </div>
+
+          </div>
+        </div>
+
+    </div>
+
+   
+  </div>
+         
+         
+         
+    
+        </div>
+
+       </div>
+
+    
+   
+   
+
+
+
+
+
+
+    </div>
+ <!--Footer-->
+ 
+  <div class="row justify-content-evenly bg-dark text-white pt-2 pb-5">
+    
+   
+
+    <div class="col-md-3 pt-4">
+   <h5 class="pb-2">Important Links</h5>
+
+     <p>
+      <a href="#Home" class="link-light text-decoration-none">Home</a> <br>
+      <a href="#about" class="link-light text-decoration-none">About Us</a> <br>
+      <a href="#ngo" class="link-light text-decoration-none">NGOs</a> <br>
+      <a href="#contact" class="link-light text-decoration-none">Contact Us</a> <br>
+      <a href="#faq" class="link-light text-decoration-none">FAQ</a> <br>
+     </p>
+    </div>
+
+    <div class="col-md-3 pt-4">
+      <h5 class="pb-2">NGO</h5>
+   
+        <p>
+         <a href="#" class="link-light text-decoration-none">Environmental NGO</a> <br>
+         <a href="#" class="link-light text-decoration-none">Humanitarian NGO</a> <br>
+         <a href="#" class="link-light text-decoration-none">Health NGO</a> <br>
+         <a href="#" class="link-light text-decoration-none">Development NGO</a> <br>
+         <a href="#" class="link-light text-decoration-none">Education NGO</a> <br>
+        </p>
+       </div>
+
+    <div class="col-md-3 pt-4">
+      <h5 class="pb-2">Contact Us</h5>
+
+      <p>
+        <i class="bi bi-telephone" style="font-size:20px;"></i> : (+91) 1234567890</p>
+        <i class="bi bi-envelope" style="font-size:20px;"></i> : unitedngo@gmail.com
+      </p>
+
+
+
+    </div>
+
+    <div class="col-md-3 pt-4">
+      <h5 > Follow us on</h5>
+        <a href="">
+         <i class="bi bi-facebook " style="font-size:30px;"></i>
+        </a>
+     
+        <a href="">
+         <i class="bi bi-instagram ps-3" style="font-size:30px; color:palevioletred"></i>
+        </a>
+         </div>
+  </div>
+
+          <!--container end-->
+        </div>
+
+   
+
+  
+
+  
+
+     
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+
+    </script>
+
+    <script src="search.js"></script>
+</body>
+</html>

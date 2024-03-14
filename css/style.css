@@ -1,0 +1,92 @@
+
+
+.navbar-dark .navbar-nav .nav-link{
+    color:rgb(255 255 255)  !important;
+    font-weight:400;
+    font-size: 20px;
+}
+
+.carousel-caption{
+
+    padding-bottom: 30px;
+
+}
+
+.carousel-caption h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    
+    font-family: 'Moon Dance', cursive;
+    font-weight: bolder;
+    margin: auto;
+    position: relative;
+    bottom:10.25rem;
+    left:1rem;
+    
+}
+
+.carousel-caption p{
+    width:70%;
+    font-size: 18px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+
+.carousel-caption a{
+    background-color: darkorange;
+    text-transform: uppercase;  
+    text-decoration: none;
+    display: inline-block;
+    color:black;
+    margin-top: 2px;
+    border-radius: 10px;
+    height: 25px;
+    width:7rem;
+}
+
+.carousel-caption a{
+    font-family: 'Secular One', sans-serif;
+}
+
+
+
+
+.carousel-caption h2 span{
+    color:orange;
+}
+
+
+.animated{
+    color:black;
+   }
+
+.nav-item:hover{
+    background-color: darkorange;
+    border-radius: 10px;
+}
+
+   /* css responsive */
+
+
+   @media only screeen and  (min-width:768px) and (max-width:1400px)
+   {
+   
+   
+
+    .carousel-caption h2,span   {
+     font-size:70px;
+    }
+ 
+   
+    }
+
+
+   
+
+  
+   
+   

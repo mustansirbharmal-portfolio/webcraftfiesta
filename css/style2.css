@@ -1,0 +1,51 @@
+.banner-envir{
+    background-color: #19D720;
+
+}
+
+.heading{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.btn-group{
+    margin: auto;
+    text-align: center;
+    
+}
+
+.view{
+    margin: auto;
+    text-align: center;
+}
+
+.wrapper {
+    width: 95%;
+    margin: auto auto;
+
+  }
+  #search-container {
+    margin: 1em 0;
+    margin: auto;
+    text-align: center;
+    margin-top: 2rem;
+
+  }
+  #search-container input {
+    background-color: transparent;
+    width: 40%;
+    border-bottom: 2px solid #110f29;
+    padding: 1em 0.3em;
+  }
+  #search-container input:focus {
+    border-bottom-color: #6759ff;
+  }
+  #search-container button {
+    padding: 1em 2em;
+    margin-left: 1em;
+    background-color: yellow;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 0.5em;
+  }
